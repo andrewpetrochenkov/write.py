@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import write
+
+path = "/tmp/filename.txt"
+write.write(path, dict())  # write dict
+print(open(path).read())

@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import write
+
+path = "/tmp/filename.txt"
+write.write(path, 42)  # write integer
+print(open(path).read())

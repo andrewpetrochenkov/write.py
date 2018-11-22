@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import write
+
+path = "/tmp/filename.txt"
+write.write(path, "хуй")
+print(open(path).read())
