@@ -8,7 +8,7 @@ $ [sudo] pip install write
 ```
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
 `write.write(path, content)`|write content to file. Creates directory if it doesn't exist
 
