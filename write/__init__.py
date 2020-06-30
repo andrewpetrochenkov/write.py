@@ -1,7 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+__all__ = ['write']
+
 import os
-import public
 import mkdir
 
 
@@ -23,7 +22,6 @@ def _convert(content):
     return str(content)
 
 
-@public.add
 def write(path, content):
     """write content to file. Creates directory if it doesn't exist"""
     fullpath = os.path.abspath(os.path.expanduser(path))
